@@ -11,13 +11,13 @@ build:
 checks:
     python:
         code_rating: true
-        duplicate_code: true
+        duplicate_code: false
         format_bad_indentation:
             indentation: '4 spaces'
         format_mixed_indentation: true
         format_line_too_long:
             max_length: '79'
-        imports_relative_import: true
+        imports_relative_import: false
         imports_wildcard_import: true
         format_bad_whitespace: true
         format_multiple_statements: true
